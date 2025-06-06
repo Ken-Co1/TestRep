@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 const API_ENDPOINT1 = 'https://byyk6ieco1.execute-api.ap-northeast-1.amazonaws.com/Function1';
 const API_ENDPOINT2 = 'https://byyk6ieco1.execute-api.ap-northeast-1.amazonaws.com/Funtion2';
+const API_ENDPOINT3 = 'https://byyk6ieco1.execute-api.ap-northeast-1.amazonaws.com/Function3';
 
 function App() {
   const [result, setResult] = useState('結果がここに表示されます');
