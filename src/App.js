@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-const API_ENDPOINT1 = '【API Gateway Lambda1のエンドポイント】';
-const API_ENDPOINT2 = '【API Gateway Lambda2のエンドポイント】';
+const API_ENDPOINT1 = 'https://byyk6ieco1.execute-api.ap-northeast-1.amazonaws.com/Function1';
+const API_ENDPOINT2 = 'https://byyk6ieco1.execute-api.ap-northeast-1.amazonaws.com/Funtion2';
 
 function App() {
   const [result, setResult] = useState('結果がここに表示されます');
