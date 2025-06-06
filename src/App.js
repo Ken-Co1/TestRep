@@ -50,6 +50,13 @@ function App() {
             >
               メッセージ2を取得
             </button>
+            <button
+              onClick={() => callLambda(API_ENDPOINT3, 'b3')}
+              disabled={loadingButton === 'b3'}
+              className={loadingButton === 'b3' ? 'loading' : ''}
+            >
+              メッセージ3を取得
+            </button>
           </div>
           <div id="result" className={result !== '' ? 'active' : ''}>
             {result}
